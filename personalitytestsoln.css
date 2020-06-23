@@ -29,9 +29,32 @@ border-radius: 10px;
 {
     margin-left: 40%;
     border-radius: 5px;
+    overflow:hidden ;
 }
 
 .solns   /*Div containing solutions to the personality test*/
 {
-   margin-left: 30px; 
+   margin-left: 20%; 
+   margin-top: 6%;
+   width: auto;
 }
+
+p
+{
+    margin-left: 70px;
+    width: 900px;
+    border: transparent ;
+    /* border-radius:50px 25px 50px 25px; */
+    /* overflow:hidden ; */
+    /* background:linear-gradient(cyan,pink); */
+    box-shadow:-3px 2px 200px rgb(8,300,500);
+    animation:expand 2s ease-in-out;  
+        /* expand initially was 4s */
+    overflow-x: visible;
+}
+
+@keyframes expand{
+    0%{width:0px;height:0px;}
+    100%{width:900px; height:150px;
+   transition:width 2s,height 4s;
+    }

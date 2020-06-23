@@ -40,7 +40,7 @@ body
 	display:flex;
 
 	/*width: 1000px;*/
-	height: 900px;
+	height: 950px;
 	background-color:#0047b3;
 	/* margin: 70px; */
 
@@ -84,7 +84,7 @@ body
 {
 	background-color: #4d3319;
 	width: 800px;
-	height: 700px;
+	height: 750px;
 	text-align: left;
 	color: white;
 	margin-right: 200px;
@@ -125,6 +125,8 @@ margin-top: 10px;
 width: 70px;
 height: 30px;
 margin-left: 70%;
+background-color: rgba(153, 51, 139, 0.486);
+color: lawngreen;
 
 
 }
@@ -134,4 +136,19 @@ form
 	background-color: #4d3319;
 	width: 700px;
 	height: 50px;
+	color: rgb(84, 201, 5);
+}
+
+.link
+{
+	position: absolute;
+	bottom: 2%;
+	right: 50%;
+	
+	
+}
+
+p
+{
+	font-size: 20px;
 }
