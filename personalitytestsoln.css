@@ -1,0 +1,37 @@
+body
+{
+    background-color: black;
+    align-content: center;
+
+}
+
+.main
+{
+    background-color: chartreuse;
+    color: black;
+    /* padding: 20%; */
+    width: auto;
+    height: 800px;
+    margin: 30px;
+
+border-radius: 10px;
+
+
+}
+
+.sub
+{
+    margin-left: 30%;
+    width: 500px;
+}
+
+.butt
+{
+    margin-left: 40%;
+    border-radius: 5px;
+}
+
+.solns   /*Div containing solutions to the personality test*/
+{
+   margin-left: 30px; 
+}
